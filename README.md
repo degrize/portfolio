@@ -7,6 +7,8 @@ My portfolio with ThreeJs & react
 
 ``npm install -D tailwindcss --save``
 
-````
+```
  npm i --legacy-peer-deps --save @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
-````
+```
+
+``npm i --legacy-peer-deps three --save``
