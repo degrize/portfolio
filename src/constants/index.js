@@ -67,6 +67,14 @@ const services = [
 
 const technologies = [
     {
+        name: "Joomla",
+        icon: joomla,
+    },
+    {
+        name: "WordPress",
+        icon: wordpress,
+    },
+    {
         name: "Python",
         icon: python,
     },
@@ -107,14 +115,6 @@ const technologies = [
         name: "Spring Boot",
         icon: springboot,
     },*/
-    {
-        name: "Joomla",
-        icon: joomla,
-    },
-    {
-        name: "WordPress",
-        icon: wordpress,
-    },
     /*{
         name: "MongoDB",
         icon: mongodb,
