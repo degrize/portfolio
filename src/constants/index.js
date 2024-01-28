@@ -59,10 +59,10 @@ const services = [
         title: "Full stack Developer",
         icon: backend,
     },
-    {
+    /*{
         title: "Content Creator",
         icon: creator,
-    },
+    },*/
 ];
 
 const technologies = [
@@ -70,14 +70,14 @@ const technologies = [
         name: "Python",
         icon: python,
     },
-    {
+    /*{
         name: "Java",
         icon: java,
-    },
-    {
+    },*/
+    /*{
         name: "NextJs",
         icon: nextjs,
-    },
+    },*/
     {
         name: "NestJs",
         icon: nestjs,
@@ -86,27 +86,27 @@ const technologies = [
         name: "Flutter",
         icon: flutter,
     },
-    {
+    /*{
         name: "C",
         icon: langC,
-    },
-    {
+    },*/
+    /*{
         name: "C++",
         icon: langCPlusPlus,
-    },
-    {
+    },*/
+    /*{
         name: "TypeScript",
         icon: typescript,
-    },
-    {
+    },*/
+    /*{
         name: "React JS",
         icon: reactjs,
-    },
+    },*/
 
-    {
+    /*{
         name: "Spring Boot",
         icon: springboot,
-    },
+    },*/
     {
         name: "Joomla",
         icon: joomla,
@@ -115,26 +115,26 @@ const technologies = [
         name: "WordPress",
         icon: wordpress,
     },
-    {
+    /*{
         name: "MongoDB",
         icon: mongodb,
     },
     {
         name: "PostgreSQL",
         icon: postgresql,
-    },
-    {
+    },*/
+   /* {
         name: "Tailwind CSS",
         icon: tailwind,
-    },
-    {
+    },*/
+    /*{
         name: "Three JS",
         icon: threejs,
-    },
-    {
+    },*/
+    /*{
         name: "git",
         icon: git,
-    },
+    },*/
     {
         name: "figma",
         icon: figma,
