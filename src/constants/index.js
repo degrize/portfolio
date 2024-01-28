@@ -66,10 +66,10 @@ const services = [
 ];
 
 const technologies = [
-    /*{
+    {
         name: "Joomla",
         icon: joomla,
-    },*/
+    },
     {
         name: "WordPress",
         icon: wordpress,
