@@ -12,3 +12,5 @@ My portfolio with ThreeJs & react
 ```
 
 ``npm i --legacy-peer-deps three --save``
+
+``npm install dotenv --save``
