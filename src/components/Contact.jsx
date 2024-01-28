@@ -35,7 +35,7 @@ const Contact = () => {
           to_email: 'mdegrize@gmail.com',
           message: form.message
         },
-        process.env.PUBLIC_KEY_EMAILJS
+        process.env.PARAM_EMAILJS
     )
     .then(() => {
       setLoading(false);
