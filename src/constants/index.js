@@ -1,28 +1,33 @@
 import {
     mobile,
     backend,
-    creator,
     web,
-    javascript,
     typescript,
-    html,
-    css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
     mongodb,
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    inphb,
+    ebenyx,
     carrent,
-    jobit,
-    tripguide,
+    presenceTracker,
+    hanoi,
     threejs,
+    joomla,
+    langC,
+    wordpress,
+    k6,
+    nestjs,
+    nextjs,
+    python,
+    java,
+    langCPlusPlus,
+    springboot,
+    flutter,
+    postgresql
+
 } from "../assets/index.js";
 
 export const navLinks = [
@@ -46,11 +51,11 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "Flutter Developer",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Full stack Developer",
         icon: backend,
     },
     {
@@ -61,16 +66,32 @@ const services = [
 
 const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
+        name: "Python",
+        icon: python,
     },
     {
-        name: "CSS 3",
-        icon: css,
+        name: "Java",
+        icon: java,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
+        name: "NextJs",
+        icon: nextjs,
+    },
+    {
+        name: "NestJs",
+        icon: nestjs,
+    },
+    {
+        name: "Flutter",
+        icon: flutter,
+    },
+    {
+        name: "C",
+        icon: langC,
+    },
+    {
+        name: "C++",
+        icon: langCPlusPlus,
     },
     {
         name: "TypeScript",
@@ -80,21 +101,30 @@ const technologies = [
         name: "React JS",
         icon: reactjs,
     },
+
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "Spring Boot",
+        icon: springboot,
     },
     {
-        name: "Tailwind CSS",
-        icon: tailwind,
+        name: "Joomla",
+        icon: joomla,
     },
     {
-        name: "Node JS",
-        icon: nodejs,
+        name: "WordPress",
+        icon: wordpress,
     },
     {
         name: "MongoDB",
         icon: mongodb,
+    },
+    {
+        name: "PostgreSQL",
+        icon: postgresql,
+    },
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
     },
     {
         name: "Three JS",
@@ -112,65 +142,71 @@ const technologies = [
         name: "docker",
         icon: docker,
     },
+    {
+        name: "K6 - grafana",
+        icon: k6,
+    },
 ];
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "C Developer",
+        company_name: "Ebenyx technologies",
+        icon: ebenyx,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "July 2022 - August 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Formatted Data Using C language to send them in Apache-Kafka",
+            "Implementing Kafka Consumer and producer",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers " +
+            "to create high-quality products.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "front & Back Developer",
+        company_name: "Ebenyx technologies",
+        icon: ebenyx,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "March 2021 - July 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Developing and maintaining web applications using Angular & Spring boot and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other " +
+            "developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Security Network",
+        company_name: "INPHB",
+        icon: inphb,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "July 2020 - September 2020",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "setup a captive portal using PfSense and Radius server",
+            "Collaborating with cross-functional teams including product managers",
+            "Implementing Radius server to connect to external database",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Desktop Developer",
+        company_name: "INPHB",
+        icon: inphb,
+        iconBg: "#383E56",
+        date: "July 2019 - August 2019",
+        points: [
+            "Developing and maintaining desktop Application using Windev",
+            "Collaborating with cross-functional teams including designers, product managers, and other " +
+            "developers to create high-quality products.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
 ];
 
 const testimonials = [
-    {
+    /*{
         testimonial:
             "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
         name: "Sara Lee",
@@ -193,21 +229,22 @@ const testimonials = [
         designation: "CTO",
         company: "456 Enterprises",
         image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    },*/
 ];
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Je loue",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based platform that allows users to search, book, and manage car, accommodation rentals from various " +
+            "providers, providing a convenient and efficient solution for transportation needs.",
         tags: [
             {
-                name: "react",
+                name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "mongodb cloud",
                 color: "green-text-gradient",
             },
             {
@@ -216,15 +253,21 @@ const projects = [
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://gitlab.com/luis-borges/jeloue-app"
     },
     {
-        name: "Job IT",
+        name: "Presence Tracker",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "a web application for attendance in a workplace.\n " +
+            "Users can mark their attendance using either their phone or their computer. " +
+            "However, they can only do so within a clearly defined area.",
         tags: [
             {
-                name: "react",
+                name: "Angular",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "SpringBoot",
                 color: "blue-text-gradient",
             },
             {
@@ -232,24 +275,38 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "postgreSQL",
+                color: "green-text-gradient",
+            },
+            {
+                name: "ng-bootstrap",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: presenceTracker,
+        source_code_link: "https://github.com/degrize/ing2-uppro-pointagePresenceApp",
     },
     {
-        name: "Trip Guide",
+        name: "Hanoi Tower online",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "The user can utilize their computer's mouse to move the discs and can alternatively use their finger if the device has a touchscreen.\n" +
+            "Ensure the game is accessible in both web and mobile formats.\n" +
+            "Incorporate a system to track game history.\n" +
+            "Integrate an authentication feature.\n" +
+            "Send login credentials via email in case of forgotten passwords.\n" +
+            "Notify players via email when another player surpasses their high score.\n" +
+            "Enable multiplayer functionality for playing with multiple participants.",
         tags: [
             {
-                name: "nextjs",
+                name: "php",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "java-script",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mariadb",
                 color: "green-text-gradient",
             },
             {
@@ -257,8 +314,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: hanoi,
+        source_code_link: "https://github.com/degrize/PHP-Hanoi-ing2",
     },
 ];
 

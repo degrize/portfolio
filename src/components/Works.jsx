@@ -68,9 +68,10 @@ const Works = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, est explicabo!
-          Accusantium asperiores aspernatur, cum dolorem ea earum eum facilis id in
-          natus non officiis quod repudiandae rerum sint sit suscipit velit veritatis!
+            The following projects demonstrate my skills and experience through real-world examples of my work.
+            Each project is succinctly described with links to code repositories.
+            They showcase my ability to solve complex problems, work with various technologies, and effectively
+            manage projects.
 
         </motion.div>
       </div>

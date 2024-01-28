@@ -42,12 +42,14 @@ const About = () => {
       </motion.div>
       <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
       >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Ex omnis quae repellat tempora ullam? At consequatur,
-        dignissimos dolores id
-        incidunt iure voluptatum! Numquam, quam, voluptatum.
+          Enrolled in Computer Engineering at École Supérieure d'Ingénieurs de Rennes, I've developed strong skills in
+          software development, focusing on Java, Python, and TypeScript, alongside frameworks such as Spring Boot and
+          Angular. With experience in native mobile (Android) and web development, and proficiency in tools like Figma,
+          Docker, and Gitlab CI, I'm eager to contribute to innovative projects.
+           <br/> As a quick learner, I collaborate closely with clients to create efficient, scalable, and user-friendly
+          solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
