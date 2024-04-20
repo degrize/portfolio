@@ -1,5 +1,5 @@
 
-[click here to visit my portfolio](https://kechiedou.vercel.app/)
+[click here to visit my portfolio ✅👌😎](https://kechiedou.vercel.app/)
 
 # React + Vite
 My portfolio with ThreeJs & react
